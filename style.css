@@ -25,29 +25,45 @@
   text-transform: uppercase;
 };
 
-.welcome-with-background {
-  background-image: url("images/Background-index.jpg");
-  background-size: cover;
+
+
+/* Page Title */
+
+.titlePage {
+  font-size: 600px;
 }
 
 
+/* Home */
 
-/* Body Content */
-
-.title {
+.welcome-with-background {
+  height: 400px;
+  background-image: url("images/Background-index.jpg");
+  background-size: cover;
   display: flex;
-  justify-content: start;
+  justify-content: center;
   align-items: center;
-  font-size: 25px;
+  color: White;
+  font-size: 40px;
+}
+
+.about-kingdom-container {
+  margin-top: 30px; 
+  margin-inline: 80px;
+  text-align: justify;
 }
 
 
 
 /* Portrait */
 
+.royal-family-container {
+  margin-inline: 80px;
+}
+
 .container-portrait {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -56,15 +72,25 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border: 1px black solid;
 }
 
 
 
 /* Asset Table */
 
-table, th, td {
+.Assets-Kingdom-Container {
+  margin-inline: 80px;
+}
+
+table {
+  width: 100%;
+}
+
+th, td {
   border: 1px solid black;
-  padding: 10px;
+  margin: 10px 10px;
+  padding-inline: 100px;
   text-align: center;
 }
 
@@ -76,14 +102,18 @@ table, th, td {
   display : flex;
   flex-direction: column;
   justify-content: start;
-  margin: 50px;
+  margin-inline: 80px;
 }
 
-#contactForm input, textarea {
+#contactForm .inputForm, textarea {
   width: 100%;
-  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
+.button {
+  display: flex;
+  justify-content: right;
+}
 
 
 
